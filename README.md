@@ -18,7 +18,7 @@ You are expected to submit your code from his tutorial in a new repository [gene
 
 ### Screenshot
 <p align="center">
-<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/DuckDuckGo.png" width="704">
+<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/DuckDuckGo.png" width="420">
 </p>
 
 ---
