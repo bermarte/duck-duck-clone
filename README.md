@@ -4,6 +4,7 @@
 
 <details>
 <summaryLearn to collaborate on one repository</summary>
+   
 1. set up your repository and clone it
 2. write a development strategy
 3. set up a project board on your repo
@@ -26,6 +27,7 @@
  </details>
 
 <details>
+   
 <summary>more info</summary>
 
 ### Prep Work
