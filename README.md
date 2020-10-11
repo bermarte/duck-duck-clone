@@ -15,10 +15,12 @@ Unlike the last two weeks, this project does not have a video tutorial for you t
 You are expected to submit your code from his tutorial in a new repository [generated](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) from [the w3-validation-starter repo](https://github.com/HackYourFutureBelgium/w3-validation-template).  Your repository should be named `duck-duck-clone` and should be collaboratively developed following the same workflow you practiced in class this Sunday.  It's up to you to write the development strategy!
 
 ---
+
 ### Screenshot
 <p align="center">
 <img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/DuckDuckGo.png" width="704">
 </p>
+
 ---
 
 ### Issue Checklist
