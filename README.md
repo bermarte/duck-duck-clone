@@ -2,76 +2,6 @@
 
 [FROM HYF](https://github.com/HackYourFutureBelgium/incremental-development/blob/master/README.md#week-3)  
 
-<details>
-<summaryLearn to collaborate on one repository</summary>
-   
-1. set up your repository and clone it
-2. write a development strategy
-3. set up a project board on your repo
-4. create one issue per step, move them to the board
-5. assign each issue to one group member
-6. each group member codes their assigned issue
-   1. move their issue into _in progress_
-   2. creates a new branch locally
-   3. writes their new code on that branch
-   4. pushes their branch to the group repository
-   5. create a PR linked to this issue
-   6. assigns team mates to review their PR
-   7. waits for the review
-7. the group merges each others' pull requests one at a time
-   1. review & correct the code
-   2. merge the PR after review, closing that issue
-   3. move the issue into _done_
-   4. everyone pulls the updated `master` branch
-   5. repeat
- </details>
-
-<details>
-   
-<summary>more info</summary>
-
-### Prep Work
-
-> before class
-
-- [Adding collaborators to a repository](https://www.youtube.com/watch?v=p49LRx3hYI8)
-- [Git Workflow for Two](https://github.com/hackyourfuturebelgium/git-workflow-workshop-for-two)
-- [about code reviews](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-reviews)
-- [requesting a code review](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review)
-- [from-strategy-to-issues](https://github.com/hackyourfuturebelgium/from-strategy-to-issues) (example repo)
-
-### Lesson Plan
-
-> during class
-
-**Before Break**
-
-Build one last group intro repository (promise ;)
-
-Before break you will:
-
-1. Choose one of you to be the repository owner, they will complete _step 0_ of the development strategy.
-    - When they have finished the group repo should look something like [this example repo](https://github.com/hackyourfuturebelgium/from-strategy-to-issues)
-    - Your repo should have: a `development-strategy`, one issue per step, each issue assigned to someone, and a project board for the issues
-2. Using the same workflow as last week, each member of the team will complete their assigned issues:
-    - Move your issue into "In Progress"
-    - Complete your task on a separate branch on your local machine
-    - When you have checked all the boxes, push your branch to GitHub
-    - Open a Pull Request and [request a review from your team mates](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review)
-    - link your PR to your issue ([reference 1](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue),  [reference 2](https://help.github.com/articles/autolinked-references-and-urls/))
-    - Move your issue into "Ready for Review"
-
-**After Break**
-
-Finish what you started before break, merge everyone's branches and close off your work in the project board:
-
-3. Once everyone has created their PRs, review each PR as a group
-    - If changes need to be made, request the changes and move the issue to "Needs Revision"
-    - If everything is OK: [close te Issue using keywords](https://help.github.com/en/enterprise/2.16/user/github/managing-your-work-on-github/closing-issues-using-keywords), and move the issue to "Done"
-4. Discuss!
-    - How was this process?
-    - Did you get conflicts?  which conflicts and how did you fix them?
-
 ### Project
 
 > after class
@@ -98,6 +28,3 @@ Copy-Paste this checklist in your group issue:
 - [ ] [one closed PR per step](https://github.com/_/_/pulls)
 - [ ] [multiple contributors](https://github.com/_/_/contributors)
 ```
-
-
-</details>
