@@ -16,16 +16,9 @@ You are expected to submit your code from his tutorial in a new repository [gene
 
 ### Issue Checklist
 
-Your group will create 1 issue using the _group_ template in your class repo.  Place this issue on the _Incremental Development_ project board and track your progress there so your classmates can study your work and help you when you're stuck.  Link to the group project issue from the **Week 3** section of your _individual_ issue.
-
-Copy-Paste this checklist in your group issue:
-
-- [ ] [repo](https://github.com/_/_) (with a complete README)
-- [ ] [live demo](https://_.github.io/_)
-- [ ] [development strategy](https://github.com/_/_/tree/master/development-strategy.md)
-- [ ] [project board w/ labeled & assigned issues](https://github.com/_/_/projects/1)
-- [ ] [issues closed by PRs](https://github.com/_/_/issues)
-- [ ] [one branch per step](https://github.com/_/_/network)
-- [ ] [one closed PR per step](https://github.com/_/_/pulls)
-- [ ] [multiple contributors](https://github.com/_/_/contributors)
-
+- [x] [repo](https://github.com/bermarte/duck-duck-clone)
+- [x] [live demo](https://bermarte.github.io/duck-duck-clone)
+- [x] [development strategy](https://github.com/bermarte/duck-duck-clone/blob/master/development-strategy.md)
+- [x] [project board w/ labeled issues](https://github.com/bermarte/duck-duck-clone/projects/1)
+- [x] [one branch per step](https://github.com/bermarte/duck-duck-clone/branches)
+- [x] [one closed PR per step](https://github.com/bermarte/duck-duck-clone/pulls)
