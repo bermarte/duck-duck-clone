@@ -23,7 +23,7 @@
    3. move the issue into _done_
    4. everyone pulls the updated `master` branch
    5. repeat
- <details>
+ </details>
 
 <details>
 <summary>more info</summary>
