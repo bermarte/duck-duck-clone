@@ -8,7 +8,7 @@ write a short description of your project:
 
 Our task is to clone the [home page of Duck Duck Go](https://duckduckgo.com/?va=z&t=hr&atb=v214-1). Every member of the team will do a part of the assignment.
 We will work on the same HTML and CSS files, and each student will make a section.
-The final web page should look like this.
+
 
 ## Wireframe
 
