@@ -2,10 +2,8 @@
 
 [FROM HYF](https://github.com/HackYourFutureBelgium/incremental-development/blob/master/README.md#week-3)  
 
----
-
-Learn to collaborate on one repository:
-
+<details>
+<summaryLearn to collaborate on one repository</summary>
 1. set up your repository and clone it
 2. write a development strategy
 3. set up a project board on your repo
@@ -25,6 +23,7 @@ Learn to collaborate on one repository:
    3. move the issue into _done_
    4. everyone pulls the updated `master` branch
    5. repeat
+ <details>
 
 <details>
 <summary>more info</summary>
