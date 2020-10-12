@@ -38,7 +38,7 @@ Burak  | Divya | Kemi | Patrick | Bermarte
 ![wireframe]()
 
 ## 0. Set-Up
-this user-story 
+this user-story was developped in the `main branch`
 
 __A User can see my initial repository and live demo__
 
@@ -50,8 +50,6 @@ __A User can see my initial repository and live demo__
 - [x] Write initial, basic development-strategy.md
 - [x] Create basic Project Board
 - [x] Turn on GitHub Pages
-- [ ] Using comments to divide tasks, include Bootstrap and CSS
-- [ ] Create a Group Issue for the assignment
 
 ### HTML
 
