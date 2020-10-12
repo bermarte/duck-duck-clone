@@ -8,6 +8,13 @@ write a short description of your project:
 
 Our task is to clone the [home page of Duck Duck Go](https://duckduckgo.com/?va=z&t=hr&atb=v214-1). Every member of the team will do a part of the assignment.
 We will work on the same HTML and CSS files, and each student will make a section.
+<div align = "center">
+  
+Header section | Monster section | Ghost section | Bathtub section | Alpinist section
+------------- | ------------- | ------------- | ------------- | -------------
+Burak  | Divya | Kemi | Patrick | Bermarte
+
+</div>
 
 
 ## Wireframe
@@ -29,6 +36,8 @@ __A User can see my initial repository and live demo__
 - [x] Create basic Project Board
 - [x] Turn on GitHub Pages
 
+---
+
 ## 1. - Make a Wireframe
 
 __Create a Wireframe__
@@ -49,3 +58,89 @@ nothing done
 
 nothing done
 
+---
+# 2. - Make the index section
+
+assigned to **Burak**
+
+- [ ] This user story was developed on a brach called `index`
+- [ ] It was merged into main when the feature was finished
+
+
+### HTML
+
+- [ ] This feature was developed in the 'index' section within 'index.html'
+
+### CSS
+
+- [ ] This feature was developed in the `style.css`
+
+---
+# 3. - Make the monster section
+
+assigned to **Divya**
+
+- [ ] This user story was developed on a brach called `monster`
+- [ ] It was merged into main when the feature was finished
+
+
+### HTML
+
+- [ ] This feature was developed in the 'monster' section within 'index.html'
+
+### CSS
+
+- [ ] This feature was developed in the `style.css`
+
+---
+# 4. - Make the Ghost section
+
+assigned to **Kemi**
+
+- [ ] This user story was developed on a brach called `ghost`
+- [ ] It was merged into main when the feature was finished
+
+
+### HTML
+
+- [ ] This feature was developed in the 'ghost' section within 'index.html'
+
+### CSS
+
+- [ ] This feature was developed in the `style.css`
+
+---
+
+# 5. - Make the Bathtub section
+
+assigned to **Patrick**
+
+- [ ] This user story was developed on a brach called `bathtub`
+- [ ] It was merged into main when the feature was finished
+
+
+### HTML
+
+- [ ] This feature was developed in the 'batthub' section within 'index.html'
+
+### CSS
+
+- [ ] This feature was developed in the `style.css`
+
+---
+
+# 6. - Make the Alpinist section
+
+assigned to **Bermarte**
+
+- [ ] This user story was developed on a brach called `alpinist`
+- [ ] It was merged into main when the feature was finished
+
+
+### HTML
+
+- [ ] This feature was developed in the 'alpinist' section within 'index.html'
+
+### CSS
+
+- [ ] This feature was developed in the `style.css`
