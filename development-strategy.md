@@ -138,7 +138,7 @@ assigned to **Kemi**
 
 ### CSS
 
-- [ ] This feature was developed in style.css`
+- [ ] This feature was developed in `style.css`
 
 ---
 
