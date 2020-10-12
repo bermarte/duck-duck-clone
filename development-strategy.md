@@ -38,6 +38,7 @@ Burak  | Divya | Kemi | Patrick | Bermarte
 ![wireframe]()
 
 ## 0. Set-Up
+this user-story 
 
 __A User can see my initial repository and live demo__
 
@@ -49,6 +50,21 @@ __A User can see my initial repository and live demo__
 - [x] Write initial, basic development-strategy.md
 - [x] Create basic Project Board
 - [x] Turn on GitHub Pages
+- [ ] Using comments to divide tasks, include Bootstrap and CSS
+- [ ] Create a Group Issue for the assignment
+
+### HTML
+
+Edit `index.html`
+
+- [x] Add a title
+- [x] Add comments to divide tasks
+- [x] Add links to Bootstrap and to Javascript
+
+### CSS
+
+- [x] Create css/style.css
+- [x] Add comments to divide tasks
 
 ---
 
@@ -77,6 +93,7 @@ nothing done
 
 assigned to **Burak**
 
+- [ ] Create an individual Issue for the assignment
 - [ ] This user story was developed on a brach called `index`
 - [ ] It was merged into main when the feature was finished
 
@@ -94,6 +111,7 @@ assigned to **Burak**
 
 assigned to **Divya**
 
+- [ ] Create an individual Issue for the assignment
 - [ ] This user story was developed on a brach called `monster`
 - [ ] It was merged into main when the feature was finished
 
@@ -111,6 +129,7 @@ assigned to **Divya**
 
 assigned to **Kemi**
 
+- [ ] Create an individual Issue for the assignment
 - [ ] This user story was developed on a brach called `ghost`
 - [ ] It was merged into main when the feature was finished
 
@@ -129,6 +148,7 @@ assigned to **Kemi**
 
 assigned to **Patrick**
 
+- [ ] Create an individual Issue for the assignment
 - [ ] This user story was developed on a brach called `bathtub`
 - [ ] It was merged into main when the feature was finished
 
@@ -147,6 +167,7 @@ assigned to **Patrick**
 
 assigned to **Bermarte**
 
+- [ ] Create an individual Issue for the assignment
 - [ ] This user story was developed on a brach called `alpinist`
 - [ ] It was merged into main when the feature was finished
 
