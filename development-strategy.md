@@ -9,12 +9,14 @@ write a short description of your project:
 Our task is to clone the [home page of Duck Duck Go](https://duckduckgo.com/?va=z&t=hr&atb=v214-1). Every member of the team will do a part of the assignment.
 We will work on the same HTML and CSS files, and each student will make a section.
 We decided to use Bootstrap. We try to avoid conflicts by using prefixes in our divs like in `monster-main` and by using ids instead of classes. While the common divs will use the conventional classes used in Bootstrap.
+
 Example:
+
 ```html
-<!-- section head -->
+<!-- section monster -->
 <div class="container>
   <div class="row">
-    <div id="header-main>
+    <div id="monster-main>
     </div>
   </div>              
 </div>
