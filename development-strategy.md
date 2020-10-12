@@ -98,11 +98,11 @@ assigned to **Burak**
 
 ### HTML
 
-- [ ] This feature was developed in the 'index' section within 'index.html'
+- [ ] This feature was developed in the 'index' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in the `style.css`
+- [ ] This feature was developed in `style.css`
 
 ---
 # 3. - Make the monster section
@@ -116,11 +116,11 @@ assigned to **Divya**
 
 ### HTML
 
-- [ ] This feature was developed in the 'monster' section within 'index.html'
+- [ ] This feature was developed in the 'monster' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in the `style.css`
+- [ ] This feature was developed in `style.css`
 
 ---
 # 4. - Make the ghost section
@@ -134,11 +134,11 @@ assigned to **Kemi**
 
 ### HTML
 
-- [ ] This feature was developed in the 'ghost' section within 'index.html'
+- [ ] This feature was developed in the 'ghost' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in the `style.css`
+- [ ] This feature was developed in style.css`
 
 ---
 
@@ -153,11 +153,11 @@ assigned to **Patrick**
 
 ### HTML
 
-- [ ] This feature was developed in the 'batthub' section within 'index.html'
+- [ ] This feature was developed in the 'batthub' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in the `style.css`
+- [ ] This feature was developed in `style.css`
 
 ---
 
@@ -172,8 +172,8 @@ assigned to **Bermarte**
 
 ### HTML
 
-- [ ] This feature was developed in the 'alpinist' section within 'index.html'
+- [ ] This feature was developed in the 'alpinist' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in the `style.css`
+- [ ] This feature was developed in `style.css`
