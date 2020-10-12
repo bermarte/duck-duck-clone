@@ -24,7 +24,7 @@ Example:
 
 <div align = "center">
   
-Header section | Monster section | Ghost section | Bathtub section | Alpinist section
+Home section | Monster section | Ghost section | Bathtub section | Alpinist section
 ------------- | ------------- | ------------- | ------------- | -------------
 Burak  | Divya | Kemi | Patrick | Bermarte
 
