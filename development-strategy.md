@@ -38,7 +38,7 @@ Burak  | Divya | Kemi | Patrick | Bermarte
 ![wireframe]()
 
 ## 0. Set-Up
-this user-story was developped in the `main branch`
+this user-story was developed in the `main branch`
 
 __A User can see my initial repository and live demo__
 
