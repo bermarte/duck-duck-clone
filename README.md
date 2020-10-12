@@ -8,7 +8,7 @@
 
 ### Project
 
-This week's _**group**_ project is to build your own accessible & responsive clone of the [DuckDuckGo home page](https://duckduckgo.com/?va=z&t=hr) (long version).  We don't expect your DOM to be identical to DuckDuckGo's, or for all the buttons to have the same behavior, but visually your site should be identical to the real DuckDuckGo.  If you would like to use a CSS framework, go for it! Just be sure everyone in your team uses it ;)
+This week's _**group**_ project is to build your own accessible & responsive clone of the [DuckDuckGo home page](https://duckduckgo.com/?va=z&t=hr&atb=v214-1) (long version).  We don't expect your DOM to be identical to DuckDuckGo's, or for all the buttons to have the same behavior, but visually your site should be identical to the real DuckDuckGo.  If you would like to use a CSS framework, go for it! Just be sure everyone in your team uses it ;)
 
 Unlike the last two weeks, this project does not have a video tutorial for you to follow. This week you will also expected to do your best at writing _accessible_ HTML including correct Semantic HTML and ARIA. Pay special attention to points of user interaction like the search field and submit button.
 
