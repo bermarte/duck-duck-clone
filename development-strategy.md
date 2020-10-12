@@ -8,6 +8,18 @@ write a short description of your project:
 
 Our task is to clone the [home page of Duck Duck Go](https://duckduckgo.com/?va=z&t=hr&atb=v214-1). Every member of the team will do a part of the assignment.
 We will work on the same HTML and CSS files, and each student will make a section.
+We decided to use Bootstrap. We try to avoid conflicts by using prefixes in our divs like in `monster-main` and by using ids instead of classes. While the common divs will use the conventional classes used in Bootstrap.
+Example:
+```html
+<!-- section head -->
+<div class="container>
+  <div class="row">
+    <div id="header-main>
+    </div>
+  </div>              
+</div>
+```
+
 <div align = "center">
   
 Header section | Monster section | Ghost section | Bathtub section | Alpinist section
@@ -46,8 +58,8 @@ __Create a Wireframe__
 
 assigned to **Bermarte**
 
-- [x] This user story was developed on a brach called `wireframe`
-- [x] It was merged into main when the feature was finished
+- [ ] This user story was developed on a brach called `wireframe`
+- [ ] It was merged into main when the feature was finished
 
 
 ### HTML
@@ -93,7 +105,7 @@ assigned to **Divya**
 - [ ] This feature was developed in the `style.css`
 
 ---
-# 4. - Make the Ghost section
+# 4. - Make the ghost section
 
 assigned to **Kemi**
 
@@ -111,7 +123,7 @@ assigned to **Kemi**
 
 ---
 
-# 5. - Make the Bathtub section
+# 5. - Make the bathtub section
 
 assigned to **Patrick**
 
@@ -129,7 +141,7 @@ assigned to **Patrick**
 
 ---
 
-# 6. - Make the Alpinist section
+# 6. - Make the alpinist section
 
 assigned to **Bermarte**
 
