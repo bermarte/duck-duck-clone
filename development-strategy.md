@@ -78,8 +78,8 @@ __Create a Wireframe__
 
 assigned to **Bermarte**
 
-- [ ] This user story was developed on a brach called `wireframe`
-- [ ] It was merged into main when the feature was finished
+- [x] This user story was developed on a brach called `wireframe`
+- [x] It was merged into main when the feature was finished
 
 
 ### HTML
