@@ -37,7 +37,9 @@ Burak  | Divya | Kemi | Patrick | Bermarte
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 <p align="center">
 <img src="imgs/wireframe.png" width="600">
-</p>
+</p>    
+
+[PDF](imgs/wireframe.pdf)
 
 ## 0. Set-Up
 this user-story was developed in the `main branch`
