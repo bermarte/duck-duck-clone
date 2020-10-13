@@ -91,8 +91,8 @@ nothing done
 
 assigned to **Burak**
 
-<p align="center">
-<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/home-section-burak.png" width="420">
+<p align="left">
+<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/home-section-burak.png" width="700">
 </p>
 
 - [ ] Create an individual Issue for the assignment
@@ -113,8 +113,8 @@ assigned to **Burak**
 
 assigned to **Divya**
 
-<p align="center">
-<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/monster-section-divya.png" width="420">
+<p align="left">
+<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/monster-section-divya.png" width="700">
 </p>
 
 - [ ] Create an individual Issue for the assignment
@@ -135,8 +135,8 @@ assigned to **Divya**
 
 assigned to **Kemi**
 
-<p align="center">
-<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/ghost-section-kemi.png" width="420">
+<p align="left">
+<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/ghost-section-kemi.png" width="700">
 </p>
 
 - [ ] Create an individual Issue for the assignment
@@ -158,8 +158,8 @@ assigned to **Kemi**
 
 assigned to **Patrick**
 
-<p align="center">
-<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/bathtub-section-patrick.png" width="420">
+<p align="left">
+<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/bathtub-section-patrick.png" width="700">
 </p>
 
 - [ ] Create an individual Issue for the assignment
@@ -181,8 +181,8 @@ assigned to **Patrick**
 
 assigned to **Bermarte**
 
-<p align="center">
-<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/alpinist-section-bermarte.png" width="420">
+<p align="left">
+<img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/alpinist-section-bermarte.png" width="700">
 </p>
 
 - [ ] Create an individual Issue for the assignment
