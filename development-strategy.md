@@ -36,7 +36,7 @@ Burak  | Divya | Kemi | Patrick | Bermarte
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 <p align="center">
-<img src="imgs/wireframe.png" width="800">
+<img src="imgs/wireframe.png" width="600">
 </p>
 
 ## 0. Set-Up
