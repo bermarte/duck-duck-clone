@@ -1,4 +1,4 @@
-
+* home */
 #home{
     height: 100vh;
     background-color: #F7F7F7;
@@ -187,10 +187,119 @@
     margin: 15px 0 0 30px;
 }
 
+/* monster */
+#monster {
+    width: auto;
+    padding-top: 50px;
+    background-color: #58b792;
+}
 
+#monster-main {
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
 
+#monster-heading {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+}
 
+#monster-main p {
+    font-size: 20px;
+    font-weight: normal;
+}
 
+#monster-img {
+    padding-top: 250px;
+    background-color: #58b792;
+}
+
+/* ghost */
+
+/* bathtub */
+
+/* alpinist */
+#alpinist {
+    width: auto;
+    padding-top: 50px;
+    background-color: #87CEF5;
+}
+
+#alpinist-main {
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 100px;
+    text-align: center;
+    color: #365374;
+}
+
+#alpinist-heading {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+#alpinist-main p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#alpinist-img {
+    padding-top: 250px;
+}
+
+#alpinist-btn{
+    background-color: #365374;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#alpinist-btn:hover{
+    /*background-color: #41658d;*/
+    cursor: pointer;
+    background-color: #41658D;
+}
+#alpinist-menu{
+    position: relative;
+    right: 0px;
+}
+#alpinist-menu a{
+    color: #32464C;
+}
+#alpinist-dismiss::after {
+    content: '|';
+    padding-left: 1.5em;	
+ }
+#alpinist-back{
+    font-weight: bold;
+    padding-right: 2em;
+}
+/* media queries */
+@media (max-width: 700px) {
+
+    #monster-heading {
+        font-size: 25px;
+    }
+
+    #monster-main p {
+        font-size: 15px;
+    }
+
+    #alpinist-heading {
+        font-size: 25px;
+    }
+
+    #alpinist-main p {
+        font-size: 15px;
+    }
+}
 @media only screen and (max-width : 1100px){
     #home-hide-nav{
         display: none;

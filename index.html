@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <meta charset="utf-8" />
+<html lang="en">
 
-    <link rel="stylesheet" href="css/style.css" />
-
-    <link
+<head>
+  <title>Duck duck clone - group 4</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Leave this here!  It renders the review buttons  -->
+  <script src='./evaluation/init.js'></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link
       rel="stylesheet"
       href="./font-awesome-4.7.0/css/font-awesome.min.css"
     />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
 
-    <!-- Leave this here!  It renders the review buttons  -->
-    <script src="./evaluation/init.js"></script>
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-  </head>
-
-  <body>
-
-    <!-- section home  -->
+  <!-- section home-->
     <section id="home">
     <!-- navbar -->
 
@@ -286,28 +280,55 @@
     </section>
     </section>
 
+  <!-- section monster-->
+  <section id="monster">
+    <div class="container">
+      <div id="monster-main">
+        <h2 id="monster-heading">We don’t store your <br />
+          personal information. Ever.</h2>
+        <p>Our privacy policy is simple: we don’t collect <br />
+          or share any of your personal information</p>
+        <div id="monster-img"><img class="img-fluid" src="imgs/1-monster-v2--pre-animation.svg" alt="monster" /> </div>
+      </div>
+    </div>
+  </section>
+  <!-- section ghost -->
 
+  <!-- section bathtub -->
 
-    <!-- importing index.js -->
-    <script src="js/index.js"></script>
+  <!-- section alpinist -->
+  <section id="alpinist">
+    <ul class="nav justify-content-end" id="alpinist-menu">
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="alpinist-dismiss"> Dismiss forever</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="alpinist-back"> Back to search</a>
+      </li>
+    </ul>
+    <div class="container">
+      <div id="alpinist-main">
+       
+        <h2 id="alpinist-heading">Already a fan?<br />
+          Invite friends to the Duck Side!</h2>
+        <p>Share DuckDuckGo and help <br />
+          friends take their privacy back!</p>
+        <button type="button" class="btn" id="alpinist-btn">Tweet #ComeToTheDuckSide</button>
+        <div id="alpinist-img"><img class="img-fluid" src="imgs/4-alpinist-v2.svg" alt="alpinist" /> </div>
+      </div>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+</body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    
-  </body>
 </html>
