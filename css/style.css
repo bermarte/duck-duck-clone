@@ -3,50 +3,43 @@
 /* monster */
 
 /* ghost */
-h1 {
-    color:black;
+#ghost h1 {
+    color:white;
     text-align:center;
-    border-style:solid;
-    border-color:black;
+    font-family:fantasy;
+    margin-top: 100px;
+}
+#ghost h2 {
+    color:white;
+    text-align:center;
+    font-family:fantasy;
+    
+}
+
+#ghost{
     background-color:orange;
-    font-family:fantasy;
-    border-width:10px;
-}
-h2 {
-    color:orange;
-    text-align:center;
-    border-style:solid;
-    background-color:black;
-    font-family:fantasy;
-    border-width:10px;
-}
-
-#ghost-v2{
-background:url("https://duckduckgo.com/assets/onboarding/bathroomguy/2-ghost-v2.svg") no-repeat center center;
 border-bottom:1px solid purple;
-margin-bottom:30px;
+
+height:100vh;
 }
 
-#ghost-v2 .row{
-height:600px;
-}
 
-#ghost-v2 h1{
+
+#ghost h1{
 font-size:50px;
 margin:0;
-padding-bottom:20px;
+
 }
 
-#ghost-v2 p{
+#ghost p{
 color:white;
 margin:0;
 }
 
-#ghost-v2 .ghost-v2-content{
+#ghost .ghost-content{
 background:orange;
 color:brown;
-border-radius:90px;
-padding:40px;
+
 opacity:0.9;
 }
 
