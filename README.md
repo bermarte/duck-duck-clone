@@ -1,5 +1,5 @@
 # duck-duck-clone
-# Incremental development week 2
+# Incremental development week 3
 
 ### Development strategy
 [OPEN development-strategy.md](development-strategy.md)  

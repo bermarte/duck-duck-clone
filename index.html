@@ -2,25 +2,265 @@
 <html lang="en">
 
 <head>
-  <title>Duck duck clone - group 4</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./evaluation/init.js'></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+    <title>Duck duck clone - group 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leave this here!  It renders the review buttons  -->
+    <script src='./evaluation/init.js'></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-  <!-- section home-->
+    <!-- section home-->
+    <section id="home">
+        <!-- navbar -->
 
-  <!-- section monster-->
+        <nav class="navbar navbar-expand-xs navbar-light justify-content-end scrolling-navbar">
 
-  <!-- section ghost -->
-  <section id="ghost">
+
+            <div class="btn-group">
+                <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="home-hide-nav">
+      
+        <span id="home-header-span">Privacy, simplified.</span>
+        <i class="fa fa-angle-down"></i>
+   
+      </button>
+
+
+                <div class="dropdown-menu dropdown-menu-right" id="home-privacy-section">
+                    <div class="p-3">
+                        <div class="dropdown-item d-flex align-items-center" onclick="window.open('https://duckduckgo.com/app','mywindow');" style="cursor: pointer;">
+                            <div>
+                                <img src="./icon/women.png" alt="women" class="mr-4" style="height: 50px; width: 50px;">
+                            </div>
+                            <div>
+                                <a href="https://duckduckgo.com/app">Get Our App & Extension</a>
+                                <p class="mt-2">Protect your data on every device.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown-item d-flex align-items-center" onclick="window.open('https://duckduckgo.com/newsletter','mywindow');" style="cursor: pointer;">
+                            <div>
+                                <img src="./icon/post.png" alt="post" class="mr-4" style="height: 50px; width: 50px;">
+                            </div>
+                            <div>
+                                <a href="https://duckduckgo.com/newsletter">Privacy in Your Inbox</a>
+                                <p class="mt-2">Stay protected and informed with our privacy <br> newsletters.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown-item d-flex align-items-center" onclick="window.open('https://spreadprivacy.com/tag/device-privacy-tips/','mywindow');" style="cursor: pointer;">
+                            <div>
+                                <img src="./icon/protect.png" alt="protect" class="mr-4" style="height: 50px; width: 50px;">
+                            </div>
+                            <div>
+                                <a href="https://spreadprivacy.com/tag/device-privacy-tips/">Protect Your Devices</a>
+                                <p class="mt-2">Check out our privacy device guides.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown-item d-flex align-items-center" onclick="window.open('https://duckduckgo.com/spread','mywindow');" style="cursor: pointer;">
+                            <div>
+                                <img src="./icon/spread.png" alt="spread" class="mr-4" style="height: 50px; width: 50px;">
+                            </div>
+                            <div>
+                                <a href="https://duckduckgo.com/spread">Spread DuckDuckGo</a>
+                                <p class="mt-2">Help your friends and family join the Duck Side!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- after divider -->
+
+                    <div id="home-privacy-section-diveder">
+                        <div class="dropdown-item d-flex align-items-center mt-5" onclick="window.open('https://duckduckgo.com/donations','mywindow');" style="cursor: pointer;">
+                            <div>
+                                <img src="./icon/donation.png" alt="donation" class="mr-4" style="height: 30px; width: 30px;">
+                            </div>
+                            <div>
+                                <a href="https://duckduckgo.com/donations">$2,650,000 in privacy donations!</a>
+
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown-item d-flex align-items-center " onclick="window.open('https://duckduckgo.com/traffic','mywindow');" style="cursor: pointer;">
+                            <div>
+                                <img src="./icon/search.png" alt="search" class="mr-4" style="height: 30px; width: 30px;">
+                            </div>
+                            <div>
+                                <a href="https://duckduckgo.com/traffic">Over 57 Billion anonymous searches.</a>
+
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown-item d-flex align-items-center " onclick="window.open('https://donttrack.us/','mywindow');" style="cursor: pointer;">
+                            <div>
+                                <img src="./icon/tracking.png" alt="tracking" class="mr-4 " style="height: 30px; width: 30px;">
+                            </div>
+                            <div>
+                                <a href="https://donttrack.us/">Learn why reducing tracking is important.</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Example single danger button -->
+            <div class="btn-group">
+                <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+          <img src="./icon/bullhorn.svg" alt="bullhorn">
+          <i class="fa fa-angle-down"></i>
+     
+        
+
+        </button>
+                <div class="dropdown-menu dropdown-menu-right" id="home-right-dropdown-a">
+                    <a class="dropdown-item" href="https://twitter.com/duckduckgo"><span ><img class="home-right-dropdown" src="./icon/twitter.svg" alt="twitter" style="height: 20px; width: 20px;" ></span> Twitter</a>
+                    <a class="dropdown-item" href="https://reddit.com/r/duckduckgo"><img class="home-right-dropdown" src="./icon/reddit.svg" alt="reddit" style="height: 20px; width: 20px;"> Reddit</a>
+                    <a class="dropdown-item" href="https://spreadprivacy.com/"><img class="home-right-dropdown" src="./icon/blog.svg" alt="blog" style="height: 20px; width: 20px;"> Blog</a>
+
+                    <a class="dropdown-item" href="https://duckduckgo.com/newsletter"><img class="home-right-dropdown" src="./icon/newsletter.png" alt="newsletter" style="height: 20px; width: 20px;"> Newsletter</a>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-trigger="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span ><i class="fa fa-bars fa-1x"></i></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="offcanvas-header mt-3" style="font-size: 1.5rem;">
+                    <button type="button" id="home-close-btn" class="btn-close float-right"><i class="fa fa-times"></i></button>
+                </div>
+                <ul class="nav navbar-nav navbar-right float-left" id="home-collapse-ul">
+
+                    <p class="text-uppercase">Settings </p>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.com/settings#theme">Themes </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.com/settings">Other Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckduckgo.com/bang">!Bang Search Shortcuts</a>
+                    </li>
+
+                    <br>
+                    <p class="text-uppercase">Privacy Essentials</p>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.com/">Private Search </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.com/app">App and Extension</a>
+                    </li>
+
+                    <br>
+                    <p class="text-uppercase">Why Privacy</p>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://spreadprivacy.com/">Privacy Blog </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.com/newsletter">Privacy Crash Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckduckgo.com/spread">Help Spread Privacy</a>
+                    </li>
+
+                    <br>
+                    <p class="text-uppercase">Who We Are</p>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.com/about">About Us </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.com/privacy">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckduckgo.com/hiring">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://duckduckgo.com/press">Press Kit</a>
+                    </li>
+                    <br>
+                    <p class="text-uppercase">Keep In Touch</p>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://twitter.com/duckduckgo">Twitter </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://duckduckgo.merchmadeeasy.com/">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://reddit.com/r/duckduckgo">Reddit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://help.duckduckgo.com/">Help</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <!-- end of navbar -->
+
+        <!-- search area -->
+        <section id="search">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="https://duckduckgo.com/about"><img src="./imgs/logo_homepage.normal.v108.svg" class="img-fluid mx-auto" alt="home-logo" /></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 col-sm-10 col-md-7 col-lg-5 mx-auto">
+                        <form id="home-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" />
+
+                                <button id="search-btn" class="btn btn-secondary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <p id="home-search-text">
+
+                            <a href="https://spreadprivacy.com/duckduckgo-search-map-directions/" target="_blank"><span id="home-search-text-span">Now With Driving & Walking Directions</span></a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- section monster-->
+    <section id="monster">
+        <div class="container">
+            <div id="monster-main">
+                <h2 id="monster-heading">We don’t store your <br /> personal information. Ever.</h2>
+                <p>Our privacy policy is simple: we don’t collect <br /> or share any of your personal information</p>
+                <div id="monster-img"><img class="img-fluid" src="imgs/1-monster-v2--pre-animation.svg" alt="monster" /> </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section ghost -->
+    <section id="ghost">
     
     <div class="row">
     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-7 ghost-content text-center mx-auto">
@@ -33,21 +273,51 @@
     
     </section>
 
-  <!-- section bathtub -->
+    <!-- section bathtub -->
+    <section id="bathtub">
+        <div id="bathtub-main">
+            <h1>We don't track you in or out</br>of private browsing mode.</h1>
+            <p>Other search engines track your searches even when you're in</br> private browsing mode. we don't track you-period.</p>
+        </div>
 
-  <!-- section alpinist -->
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
+        <!-- IMAGE-->
+        <div id="bathtub-image">
+            <img src="https://duckduckgo.com/assets/onboarding/bathroomguy/3-bathtub-b.png" alt="bathtub">
+        </div>
+    </section>
+    <!-- section alpinist -->
+    <section id="alpinist">
+        <ul class="nav justify-content-end" id="alpinist-menu">
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="alpinist-dismiss"> Dismiss forever</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="alpinist-back"> Back to search</a>
+            </li>
+        </ul>
+        <div class="container">
+            <div id="alpinist-main">
+
+                <h2 id="alpinist-heading">Already a fan?<br /> Invite friends to the Duck Side!</h2>
+                <p>Share DuckDuckGo and help <br /> friends take their privacy back!</p>
+                <button type="button" class="btn" id="alpinist-btn">Tweet #ComeToTheDuckSide</button>
+                <div id="alpinist-img"><img class="img-fluid" src="imgs/4-alpinist-v2.svg" alt="alpinist" /> </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- importing index.js -->
+    <script src="js/index.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
