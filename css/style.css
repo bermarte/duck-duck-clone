@@ -3,6 +3,52 @@
 /* monster */
 
 /* ghost */
+h1 {
+    color:black;
+    text-align:center;
+    border-style:solid;
+    border-color:black;
+    background-color:orange;
+    font-family:fantasy;
+    border-width:10px;
+}
+h2 {
+    color:orange;
+    text-align:center;
+    border-style:solid;
+    background-color:black;
+    font-family:fantasy;
+    border-width:10px;
+}
+
+#ghost-v2{
+background:url("https://duckduckgo.com/assets/onboarding/bathroomguy/2-ghost-v2.svg") no-repeat center center;
+border-bottom:1px solid purple;
+margin-bottom:30px;
+}
+
+#ghost-v2 .row{
+height:600px;
+}
+
+#ghost-v2 h1{
+font-size:50px;
+margin:0;
+padding-bottom:20px;
+}
+
+#ghost-v2 p{
+color:white;
+margin:0;
+}
+
+#ghost-v2 .ghost-v2-content{
+background:orange;
+color:brown;
+border-radius:90px;
+padding:40px;
+opacity:0.9;
+}
 
 /* bathtub */
 
