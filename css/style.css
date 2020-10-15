@@ -349,9 +349,12 @@ input[type=text]:active {
 #alpinist-btn {
     background-color: #365374;
     color: white;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
     transition: 0.3s;
+    line-height: 21px;
+    padding:14px;
 }
 
 #alpinist-btn:hover {
@@ -360,21 +363,23 @@ input[type=text]:active {
 }
 
 #alpinist-menu {
-    position: relative;
-    right: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #alpinist-menu a {
+    font-size: 14px;
+    letter-spacing: -1px;
     color: #32464C;
+    letter-spacing: 1px;
 }
 
 #alpinist-dismiss::after {
     content: '|';
-    padding-left: 1.5em;
+    padding-left: 1em;
 }
 
 #alpinist-back {
-    font-weight: bold;
+    font-weight: 700;
     padding-right: 2em;
 }
 
