@@ -1,6 +1,10 @@
 body{
     background-color: #F7F7F7;
 }
+.h2-heading,
+.p-text{
+    font-family: 'Montserrat', sans-serif;
+}
 /* home */
 #home {
     height: 100vh;
