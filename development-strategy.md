@@ -99,18 +99,18 @@ assigned to **Burak**
 <img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/home-section-burak.png" width="700">
 </p>
 
-- [ ] Create an individual Issue for the assignment
-- [ ] This user story was developed on a brach called `home`
-- [ ] It was merged into main when the feature was finished
+- [x] Create an individual Issue for the assignment
+- [x] This user story was developed on a brach called `home`
+- [x] It was merged into main when the feature was finished
 
 
 ### HTML
 
-- [ ] This feature was developed in the 'index' section within `index.html`
+- [x] This feature was developed in the 'index' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in `style.css`
+- [x] This feature was developed in `style.css`
 
 ---
 # 3. - Make the monster section
@@ -121,18 +121,18 @@ assigned to **Divya**
 <img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/monster-section-divya.png" width="700">
 </p>
 
-- [ ] Create an individual Issue for the assignment
-- [ ] This user story was developed on a brach called `monster`
-- [ ] It was merged into main when the feature was finished
+- [x] Create an individual Issue for the assignment
+- [x] This user story was developed on a brach called `monster`
+- [x] It was merged into main when the feature was finished
 
 
 ### HTML
 
-- [ ] This feature was developed in the 'monster' section within `index.html`
+- [x] This feature was developed in the 'monster' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in `style.css`
+- [x] This feature was developed in `style.css`
 
 ---
 # 4. - Make the ghost section
@@ -143,18 +143,18 @@ assigned to **Kemi**
 <img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/ghost-section-kemi.png" width="700">
 </p>
 
-- [ ] Create an individual Issue for the assignment
-- [ ] This user story was developed on a brach called `ghost`
-- [ ] It was merged into main when the feature was finished
+- [x] Create an individual Issue for the assignment
+- [x] This user story was developed on a brach called `ghost`
+- [x] It was merged into main when the feature was finished
 
 
 ### HTML
 
-- [ ] This feature was developed in the 'ghost' section within `index.html`
+- [x] This feature was developed in the 'ghost' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in `style.css`
+- [x] This feature was developed in `style.css`
 
 ---
 
@@ -166,18 +166,18 @@ assigned to **Patrick**
 <img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/bathtub-section-patrick.png" width="700">
 </p>
 
-- [ ] Create an individual Issue for the assignment
-- [ ] This user story was developed on a brach called `bathtub`
-- [ ] It was merged into main when the feature was finished
+- [x] Create an individual Issue for the assignment
+- [x] This user story was developed on a brach called `bathtub`
+- [x] It was merged into main when the feature was finished
 
 
 ### HTML
 
-- [ ] This feature was developed in the 'batthub' section within `index.html`
+- [x] This feature was developed in the 'batthub' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in `style.css`
+- [x] This feature was developed in `style.css`
 
 ---
 
@@ -189,15 +189,36 @@ assigned to **Bermarte**
 <img src="https://github.com/bermarte/duck-duck-clone/blob/master/imgs/alpinist-section-bermarte.png" width="700">
 </p>
 
-- [ ] Create an individual Issue for the assignment
-- [ ] This user story was developed on a brach called `alpinist`
-- [ ] It was merged into main when the feature was finished
+- [x] Create an individual Issue for the assignment
+- [x] This user story was developed on a brach called `alpinist`
+- [x] It was merged into main when the feature was finished
 
 
 ### HTML
 
-- [ ] This feature was developed in the 'alpinist' section within `index.html`
+- [x] This feature was developed in the 'alpinist' section within `index.html`
 
 ### CSS
 
-- [ ] This feature was developed in `style.css`
+- [x] This feature was developed in `style.css`
+
+---
+
+# 7. - Fix everything
+
+assigned to **Bermarte**
+
+Fix CSS and HTML errors, adapt the sections
+
+- [x] Create an individual Issue for the assignment
+- [x] This user story was developed on a brach called `fix`
+- [x] It was merged into main when the feature was finished
+
+
+### HTML
+
+- [x] This feature was developed in the 'alpinist' section within `index.html`
+
+### CSS
+
+- [x] This feature was developed in `style.css`
