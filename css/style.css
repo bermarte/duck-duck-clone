@@ -401,7 +401,22 @@ input[type=text]:active {
     }
 }
 
-
+@media (max-width: 900px){
+    /* keep br but hide them */
+    #alpinist-main p br,
+    #monster-main p br,
+    #ghost-main p br,
+    #bathtub-main p br {
+        display: none;
+    }
+    .p-text{
+        width: 85%;
+        margin: auto;
+    }
+    #alpinist-btn{
+        margin-top:20px;
+    }
+}
 @media (max-width: 700px) {
 
     /* smaller headers */
@@ -420,4 +435,5 @@ input[type=text]:active {
     #bathtub-main p {
         font-size: 15px;
     }
+    
 }
