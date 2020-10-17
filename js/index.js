@@ -58,7 +58,6 @@ $(function () {
             section = [];
         }
 
-
         if ($(this).scrollTop() > monster_min_scroll &&
             $(this).scrollTop() < ghost_min_scroll) {
             if (debug) {
