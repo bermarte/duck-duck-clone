@@ -217,6 +217,48 @@ input[type=text]:active {
     margin: 15px 0 0 30px;
 }
 
+/* round icon teaser-2@2x.png */
+#round-scroller-container{
+    position: absolute!important;
+    bottom: -28px;
+    left: calc(50% - 39px);
+}
+#round-scroller{
+    width: 78px;
+    height: 69px;
+    margin:0;
+    padding:0;
+    background-image: url("../imgs/teaser-2@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px; 
+    position: relative;
+    bottom: -40%;
+    transition: opacity .25s ease;
+    opacity: 0.8;
+}
+
+#round-scroller:hover{
+    opacity: 1;
+}
+
+#down-arrow{
+    background-color: #222222;
+    border-radius: 50%;
+    margin:0;
+    padding:0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    bottom: 15px;
+    left:calc(50% - 14px);
+}
+
+#down-arrow i{
+    color: white;
+    font-size: 19px;
+    line-height: 31px;
+}
 /* monster */
 
 #monster {
