@@ -1,3 +1,7 @@
+html {
+    visibility:hidden;
+}
+
 body {
     background-color: #F7F7F7;
 }
@@ -240,6 +244,7 @@ input[type=text]:active {
 
 #round-scroller:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 #down-arrow{
@@ -449,6 +454,7 @@ input[type=text]:active {
 
 #section-round-scroller:hover{
     transform: scale(1.3);
+    cursor: pointer;
 }
 
 #section-round-scroller i {
