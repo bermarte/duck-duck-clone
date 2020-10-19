@@ -11,6 +11,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+section{
+   min-height: 500px;
+   min-width: 300px;
+}
 /* home */
 
 #home {
@@ -485,7 +489,7 @@ input[type=text]:active {
 
 #section-round-scroller i {
     position: relative;
-    bottom: -14px;
+    bottom: -12px;
 }
 
 /* media queries */
