@@ -12,8 +12,9 @@ body {
 }
 
 section{
-   min-height: 500px;
-   min-width: 300px;
+   min-height: 466px;
+   min-width: 400px;
+   
 }
 /* home */
 
@@ -276,7 +277,7 @@ input[type=text]:active {
 #monster {
     width: auto;
     padding-top: 50px;
-    background-color: #58b792;  
+    background-color: #58b792;
 }
 
 #monster-main {
@@ -289,6 +290,7 @@ input[type=text]:active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 #monster-heading {
@@ -351,6 +353,7 @@ input[type=text]:active {
 
 #bathtub {
     width: auto;
+    height: auto;
     padding-top: 50px;
     background-color: #5F63BD;
 }
