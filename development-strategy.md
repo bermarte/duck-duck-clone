@@ -208,7 +208,7 @@ assigned to **Bermarte**
 
 assigned to **Bermarte** and **Burak**
 
-Fix CSS and HTML errors, adapt the sections, make experiments
+Fix CSS and HTML errors, adapt the sections, make different experiments.
 
 - [x] Create an individual Issue for the assignment
 - [x] This feature was developed on a brach called `fix`
@@ -228,3 +228,38 @@ Fix CSS and HTML errors, adapt the sections, make experiments
 ### JAVASCRIPT
 
 - [x] This feature was developed in `index.js` and in `search.js`
+
+---
+
+# 8. - Animations
+
+assigned to **Bermarte**
+Create the animations, adapt the sections, make more experiments.
+From Slack:
+
+>I created a branch of the project (it is not yet merged into the master because there is something I don't like so much and because I don't want to change the work of others) but in the 'animations' branch I have changed a few things, it is more like to an experiment.
+I've added the animations you see on the original Duckduckgo website.
+To do this I had to find a way to copy Duckduckgo's SVG and CSS but I chose to paste everything inside the SVG file and this doesn't seem to be a good way. It is much better to create inline animations, instead (within the HTML file). :slightly_smiling_face:
+The branch is temporarily online at the githubpage URL > https://bermarte.github.io/duck-duck-clone/
+Every time the animation restarts, a new file is loaded and this is a problem. 
+
+
+
+- [x] Create an individual Issue for the assignment
+- [x] This feature was developed on a brach called `fix`
+- [x] This part regarding the home section was first developed on a brach called `homeSecond`
+- [x] This part regarding the home section was then developed a brach called `thirdHome`
+- [x] Each branch was merged into main when the feature was finished
+
+
+### HTML
+
+- [x] This feature was developed within `index.html`
+
+### CSS
+
+- [x] This feature was developed in `style.css`
+
+### JAVASCRIPT
+
+- [x] This feature was developed in `index.js`
