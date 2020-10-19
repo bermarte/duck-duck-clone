@@ -1,5 +1,5 @@
 html {
-    visibility:hidden;
+    visibility: hidden;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
 }
 
 /* home */
+
 #home {
     height: 100vh;
     background-color: #F7F7F7;
@@ -222,54 +223,56 @@ input[type=text]:active {
 }
 
 /* round icon teaser-2@2x.png */
-#round-scroller-container{
-    position: absolute!important;
+#round-scroller-container {
+    position: absolute !important;
     bottom: -28px;
     left: calc(50% - 39px);
 }
-#round-scroller{
+
+#round-scroller {
     width: 78px;
     height: 69px;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-image: url("../imgs/teaser-2@2x.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px 0px; 
+    background-position: 0px 0px;
     position: relative;
     bottom: -40%;
     transition: opacity .25s ease;
     opacity: 0.8;
 }
 
-#round-scroller:hover{
+#round-scroller:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-#down-arrow{
+#down-arrow {
     background-color: #222222;
     border-radius: 50%;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     width: 32px;
     height: 32px;
     position: relative;
     bottom: 15px;
-    left:calc(50% - 14px);
+    left: calc(50% - 14px);
 }
 
-#down-arrow i{
+#down-arrow i {
     color: white;
     font-size: 19px;
     line-height: 31px;
 }
+
 /* monster */
 
 #monster {
     width: auto;
     padding-top: 50px;
-    background-color: #58b792;
+    background-color: #58b792;  
 }
 
 #monster-main {
@@ -279,6 +282,9 @@ input[type=text]:active {
     text-align: center;
     color: white;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #monster-heading {
@@ -313,6 +319,10 @@ input[type=text]:active {
     text-align: center;
     color: white;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #ghost-heading {
@@ -344,10 +354,13 @@ input[type=text]:active {
 #bathtub-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: auto;
+    padding-top: 0px;
     text-align: center;
     color: white;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #bathtub-heading {
@@ -371,17 +384,20 @@ input[type=text]:active {
 
 #alpinist {
     width: auto;
-    padding-top: 50px;
+    padding-top: 30px;
     background-color: #87CEF5;
 }
 
 #alpinist-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: auto;
+    padding-top: opx;
     text-align: center;
     color: #365374;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #alpinist-heading {
@@ -398,6 +414,7 @@ input[type=text]:active {
 
 #alpinist-img {
     padding-top: 0px;
+
 }
 
 #alpinist-btn {
@@ -437,16 +454,21 @@ input[type=text]:active {
     padding-right: 2em;
     padding-left: 0em;
 }
+.ani-obj{
+    margin-bottom: -7px;
+}
 
 /* section scroller */
-#section-round-scroller-container{
-    position: fixed!important;
+
+#section-round-scroller-container {
+    position: fixed !important;
     bottom: 25px;
     left: calc(50% - 26px);
 }
-#section-round-scroller{
-    margin:0;
-    padding:0;
+
+#section-round-scroller {
+    margin: 0;
+    padding: 0;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -456,7 +478,7 @@ input[type=text]:active {
     font-size: 30px;
 }
 
-#section-round-scroller:hover{
+#section-round-scroller:hover {
     transform: scale(1.3);
     cursor: pointer;
 }
@@ -480,7 +502,8 @@ input[type=text]:active {
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
+
     /* keep br but hide them */
     #alpinist-main p br,
     #monster-main p br,
@@ -488,17 +511,21 @@ input[type=text]:active {
     #bathtub-main p br {
         display: none;
     }
-    .p-text{
+
+    .p-text {
         width: 85%;
         margin: auto;
     }
-    #alpinist-btn{
-        margin-top:20px;
+
+    #alpinist-btn {
+        margin-top: 20px;
     }
 }
+
 @media (max-width: 700px) {
 
     /* smaller headers */
+
     #alpinist-heading,
     #monster-heading,
     #ghost-heading,
@@ -508,11 +535,12 @@ input[type=text]:active {
     }
 
     /* smaller paragraphs */
+
     #alpinist-main p,
     #monster-main p,
     #ghost-main p,
     #bathtub-main p {
         font-size: 15px;
     }
-    
+
 }

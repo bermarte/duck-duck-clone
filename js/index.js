@@ -22,10 +22,10 @@ $(function () {
     });
 
     svgAnims = [
-        '<object type="image/svg+xml" data="imgs/1-monster-v2--pre-animation_ani.svg" id="monster-svg"></object>',
-        '<object type="image/svg+xml" data="imgs/2-ghost-v2_ani.svg" id="ghost-svg"></object>',
-        ' <object type="image/svg+xml" data="imgs/3-bathtub-v2--pre-animation_ani.svg" id="bathtub-svg"></object>',
-        '<object type="image/svg+xml" data="imgs/4-alpinist-v2_ani.svg" id="alpinist-svg"></object>'
+        '<object type="image/svg+xml" data="imgs/1-monster-v2--pre-animation_ani.svg" id="monster-svg" class="ani-obj img-fluid"></object>',
+        '<object type="image/svg+xml" data="imgs/2-ghost-v2_ani.svg" id="ghost-svg" class="ani-obj img-fluid"></object>',
+        ' <object type="image/svg+xml" data="imgs/3-bathtub-v2--pre-animation_ani.svg" id="bathtub-svg" class="ani-obj img-fluid"></object>',
+        '<object type="image/svg+xml" data="imgs/4-alpinist-v2_ani.svg" id="alpinist-svg" class="ani-obj img-fluid"></object>'
         ];
 
     /* home scroller */
