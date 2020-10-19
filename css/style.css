@@ -276,6 +276,7 @@ input[type=text]:active {
 
 #monster {
     width: auto;
+    height: auto;
     padding-top: 50px;
     background-color: #58b792;
 }
@@ -286,7 +287,7 @@ input[type=text]:active {
     padding-top: 100px;
     text-align: center;
     color: white;
-    height: 100vh;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -314,6 +315,7 @@ input[type=text]:active {
 
 #ghost {
     width: auto;
+    height: auto;
     padding-top: 50px;
     background-color: orange;
 }
@@ -321,14 +323,13 @@ input[type=text]:active {
 #ghost-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: 0px;
+    padding-top: 100px;
     text-align: center;
     color: white;
-    height: 100vh;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
 }
 
 #ghost-heading {
@@ -361,10 +362,10 @@ input[type=text]:active {
 #bathtub-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: 0px;
+    padding-top: 100px;
     text-align: center;
     color: white;
-    height: 100vh;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -391,17 +392,20 @@ input[type=text]:active {
 
 #alpinist {
     width: auto;
-    padding-top: 30px;
+    height: auto;
+    padding-top: 0px;
     background-color: #87CEF5;
+    min-height: 100%;
 }
 
 #alpinist-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: opx;
+    padding-top: 100px;
     text-align: center;
     color: #365374;
-    height: 100vh;
+    background-color: #87CEF5;
+    height: 465px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -442,6 +446,7 @@ input[type=text]:active {
 
 #alpinist-menu {
     font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
 }
 
 #alpinist-menu a {
@@ -492,7 +497,7 @@ input[type=text]:active {
 
 #section-round-scroller i {
     position: relative;
-    bottom: -12px;
+    bottom: -13px;
 }
 
 /* media queries */
@@ -550,4 +555,10 @@ input[type=text]:active {
         font-size: 15px;
     }
 
+}
+@media screen and (max-height: 300px) {
+    #round-scroller-container,
+    #section-round-scroller{
+        display: none;
+    }
 }
