@@ -278,6 +278,7 @@ input[type=text]:active {
     padding-top: 100px;
     text-align: center;
     color: white;
+    height: 100vh;
 }
 
 #monster-heading {
@@ -293,9 +294,8 @@ input[type=text]:active {
 }
 
 #monster-img {
-    padding-top: 250px;
+    padding-top: 0px;
     background-color: #58b792;
-    margin-bottom: -7px;
 }
 
 /* ghost */
@@ -309,9 +309,10 @@ input[type=text]:active {
 #ghost-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: 100px;
+    padding-top: 0px;
     text-align: center;
     color: white;
+    height: 100vh;
 }
 
 #ghost-heading {
@@ -328,9 +329,8 @@ input[type=text]:active {
 }
 
 #ghost-img {
-    padding-top: 250px;
+    padding-top: 0px;
     background-color: orange;
-    margin-bottom: -7px;
 }
 
 /* bathtub */
@@ -344,9 +344,10 @@ input[type=text]:active {
 #bathtub-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: 100px;
+    padding-top: auto;
     text-align: center;
     color: white;
+    height: 100vh;
 }
 
 #bathtub-heading {
@@ -362,9 +363,8 @@ input[type=text]:active {
 }
 
 #bathtub-img {
-    padding-top: 250px;
+    padding-top: 0px;
     background-color: #5F63BD;
-    margin-bottom: -7px;
 }
 
 /* alpinist */
@@ -378,9 +378,10 @@ input[type=text]:active {
 #alpinist-main {
     font-weight: normal;
     font-style: normal;
-    padding-top: 100px;
+    padding-top: auto;
     text-align: center;
     color: #365374;
+    height: 100vh;
 }
 
 #alpinist-heading {
@@ -396,8 +397,7 @@ input[type=text]:active {
 }
 
 #alpinist-img {
-    padding-top: 250px;
-    margin-bottom: -7px;
+    padding-top: 0px;
 }
 
 #alpinist-btn {
