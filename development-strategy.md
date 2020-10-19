@@ -233,7 +233,7 @@ Fix CSS and HTML errors, adapt the sections, make different experiments.
 
 # 8. - Animations
 
-assigned to **Bermarte**
+assigned to **Bermarte**    
 Create the animations, adapt the sections, make more experiments.
 From Slack:
 
