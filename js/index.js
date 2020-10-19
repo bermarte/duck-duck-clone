@@ -73,6 +73,7 @@ $(function () {
                 $('#section-round-scroller').css("background-color", "red");
             }
             document.getElementById("ghost-img").innerHTML = svgAnims[1];
+            console.log('ghost ani');
             section = sections[1];
             console.log(section);
         }
@@ -82,6 +83,7 @@ $(function () {
                 $('#section-round-scroller').css("background-color", "green");
             }
             document.getElementById("bathtub-img").innerHTML = svgAnims[2];
+            console.log('bathtub ani');
             section = sections[2];
             console.log(section);
         }
@@ -91,6 +93,7 @@ $(function () {
                 $('#section-round-scroller').css("background-color", "pink");
             }
             document.getElementById("alpinist-img").innerHTML = svgAnims[3];
+            console.log('alpinist ani');
             section = sections[3];
             console.log(section);
         }
@@ -99,7 +102,6 @@ $(function () {
                 $('#section-round-scroller').css("background-color", "yellow");
             }
             section = sections[3];
-            console.log(section);
         }
 
     });
