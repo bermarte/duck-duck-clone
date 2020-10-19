@@ -12,6 +12,7 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/duckgogoanimations.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -281,7 +282,9 @@
         </h2>
         <p class="p-text">Our privacy policy is simple: we don’t collect <br /> or share any of your personal
           information</p>
-        <div id="monster-img"><img class="img-fluid" src="imgs/1-monster-v2--pre-animation.svg" alt="monster" /> </div>
+        <div id="monster-img">
+          <object type="image/svg+xml" data="imgs/1-monster-v2--pre-animation.svg" id="monster-svg" class="ani-obj"></object>
+        </div>
       </div>
     </div>
   </section>
@@ -293,7 +296,9 @@
         <h2 id="ghost-heading" class="h2-heading text-center">We don't follow you<br /> around with ads.</h2>
         <p class="p-text"> We don't store your search history. We therefore have nothing<br /> to sell to advertisers
           that track you across the internet.</p>
-        <div id="ghost-img"><img class="img-fluid" src="imgs/2-ghost-v2.svg" alt="ghost" /> </div>
+        <div id="ghost-img">
+          <object type="image/svg+xml" data="imgs/2-ghost-v2.svg" id="ghost-svg" class="ani-obj"></object>
+        </div>
       </div>
     </div>
   </section>
@@ -307,14 +312,16 @@
         <p class="p-text"> Other search engines track your searches even when you're<br /> in private browsing mode. We
           don't track you - period.
         </p>
-        <div id="bathtub-img"><img class="img-fluid" src="imgs/3-bathtub-v2--pre-animation.svg" alt="bathtub" /> </div>
+        <div id="bathtub-img">
+          <object type="image/svg+xml" data="imgs/3-bathtub-v2--pre-animation.svg" id="bathtub-svg" class="ani-obj"></object>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- section alpinist -->
   <section id="alpinist">
-    <ul class="nav justify-content-sm-end justify-content-center" id="alpinist-menu">
+    <ul class="nav justify-content-sm-end justify-content-center" id="alpinist-menu" class="ani-obj">
       <li class="nav-item">
         <a class="nav-link" href="#" id="alpinist-dismiss"> Dismiss forever</a>
       </li>
@@ -329,7 +336,9 @@
         </h2>
         <p class="p-text">Share DuckDuckGo and help <br /> friends take their privacy back!</p>
         <button type="button" class="btn" id="alpinist-btn">Tweet #ComeToTheDuckSide</button>
-        <div id="alpinist-img"><img class="img-fluid" src="imgs/4-alpinist-v2.svg" alt="alpinist" /> </div>
+        <div id="alpinist-img">
+          <object type="image/svg+xml" data="imgs/4-alpinist-v2.svg" id="alpinist-svg"></object>
+        </div>
       </div>
     </div>
   </section>

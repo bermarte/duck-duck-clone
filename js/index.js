@@ -21,9 +21,17 @@ $(function () {
 
     });
 
+    svgAnims = [
+        '<object type="image/svg+xml" data="imgs/1-monster-v2--pre-animation_ani.svg" id="monster-svg"></object>',
+        '<object type="image/svg+xml" data="imgs/2-ghost-v2_ani.svg" id="ghost-svg"></object>',
+        ' <object type="image/svg+xml" data="imgs/3-bathtub-v2--pre-animation_ani.svg" id="bathtub-svg"></object>',
+        '<object type="image/svg+xml" data="imgs/4-alpinist-v2_ani.svg" id="alpinist-svg"></object>'
+        ];
+
     /* home scroller */
 
     $("#round-scroller").click(function (e) {
+        document.getElementById("monster-img").innerHTML = svgAnims[0];
         var target = $('#monster');
         if (target.length) {
             $('html,body').animate({
@@ -31,6 +39,7 @@ $(function () {
             }, 500);
             return false;
         }
+        
     });
 
     /*
@@ -63,14 +72,16 @@ $(function () {
             if (debug) {
                 $('#section-round-scroller').css("background-color", "red");
             }
+            document.getElementById("ghost-img").innerHTML = svgAnims[1];
             section = sections[1];
-            console.log('red ' + section);
+            console.log(section);
         }
         if ($(this).scrollTop() > ghost_min_scroll &&
             $(this).scrollTop() < bathtub_min_scroll) {
             if (debug) {
                 $('#section-round-scroller').css("background-color", "green");
             }
+            document.getElementById("bathtub-img").innerHTML = svgAnims[2];
             section = sections[2];
             console.log(section);
         }
@@ -79,6 +90,7 @@ $(function () {
             if (debug) {
                 $('#section-round-scroller').css("background-color", "pink");
             }
+            document.getElementById("alpinist-img").innerHTML = svgAnims[3];
             section = sections[3];
             console.log(section);
         }

@@ -295,6 +295,7 @@ input[type=text]:active {
 #monster-img {
     padding-top: 250px;
     background-color: #58b792;
+    margin-bottom: -7px;
 }
 
 /* ghost */
@@ -329,6 +330,7 @@ input[type=text]:active {
 #ghost-img {
     padding-top: 250px;
     background-color: orange;
+    margin-bottom: -7px;
 }
 
 /* bathtub */
@@ -362,6 +364,7 @@ input[type=text]:active {
 #bathtub-img {
     padding-top: 250px;
     background-color: #5F63BD;
+    margin-bottom: -7px;
 }
 
 /* alpinist */
@@ -394,6 +397,7 @@ input[type=text]:active {
 
 #alpinist-img {
     padding-top: 250px;
+    margin-bottom: -7px;
 }
 
 #alpinist-btn {
