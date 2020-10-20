@@ -1,7 +1,7 @@
 # duck-duck-clone
 # Incremental development week 3
 
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/bermarte/duck-duck-clone/graphs/contributors)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/bermarte/duck-duck-clone) ![GitHub contributors](https://img.shields.io/github/contributors/bermarte/duck-duck-clone) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fbermarte.github.io%2Fduck-duck-clone%2F)
 ### Development strategy
 [OPEN development-strategy.md](development-strategy.md)   
 
