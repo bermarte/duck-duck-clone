@@ -1,8 +1,10 @@
 # duck-duck-clone
 # Incremental development week 3
 
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/bermarte/duck-duck-clone/graphs/contributors)
 ### Development strategy
-[OPEN development-strategy.md](development-strategy.md)  
+[OPEN development-strategy.md](development-strategy.md)   
+
 
 [FROM HYF](https://github.com/HackYourFutureBelgium/incremental-development/blob/master/README.md#week-3)  
 
@@ -31,3 +33,5 @@ You are expected to submit your code from his tutorial in a new repository [gene
 - [x] [project board w/ labeled issues](https://github.com/bermarte/duck-duck-clone/projects/1)
 - [x] [one branch per step](https://github.com/bermarte/duck-duck-clone/branches)
 - [x] [one closed PR per step](https://github.com/bermarte/duck-duck-clone/pulls)
+
+[contributors-url]: https://mametur.github.io/restful-pjs/graphs/contributors
