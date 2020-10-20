@@ -108,13 +108,13 @@ input[type=text]:active {
     opacity: 0.5;
 }
 
-#home .btn-group i {
+#home .btn-group span {
     color: black !important;
     opacity: 0.5;
 }
 
 #home .btn-group img:hover,
-#home .btn-group i:hover {
+#home .btn-group span:hover {
     opacity: 0.9;
 }
 
@@ -172,11 +172,11 @@ input[type=text]:active {
     background-color: #FFF;
 }
 
-#home-close-btn i {
+#home-close-btn span {
     color: #9A9A9A;
 }
 
-#home-close-btn i:hover {
+#home-close-btn span:hover {
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -278,12 +278,16 @@ input[type=text]:active {
     left: calc(50% - 14px);
 }
 
-#down-arrow i {
+#down-arrow span {
     color: white;
     font-size: 19px;
     line-height: 31px;
 }
 
+/* labels */
+#home-search label{
+    display: none;
+}
 /* monster */
 
 #monster {
@@ -508,7 +512,7 @@ input[type=text]:active {
     cursor: pointer;
 }
 
-#section-round-scroller i {
+#section-round-scroller span {
     position: relative;
     bottom: -13px;
 }
