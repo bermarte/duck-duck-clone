@@ -260,3 +260,23 @@ Every time the animation restarts, a new file is loaded and this is a problem.
 ### JAVASCRIPT
 
 - [x] This feature was developed in `index.js`
+
+---
+# 9. - ARIA
+
+assigned to **Bermarte**
+
+- [x] Validate index.html by using https://achecker.ca/checker/index.php
+- [x] Adding a label to the input field 
+- [x] Change all `i`s to `span`s
+- [x] Create an individual Issue for the assignment
+- [x] This feature was developed onthe master branch
+
+
+### HTML
+
+- [x] This feature was developed within `index.html`
+
+### CSS
+
+- [x] This feature was developed in `style.css`
